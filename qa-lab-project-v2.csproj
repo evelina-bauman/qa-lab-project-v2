@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{00000000-0000-0000-0000-000000000000}</ProjectGuid>
+    <ProjectGuid>{0A1F27D3-E836-4B61-873D-2C5CE59C9A18}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>ConsoleApplication</AssemblyName>
@@ -29,6 +29,9 @@
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>qa_lab_project_v2</RootNamespace>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
@@ -37,6 +40,197 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\00\a6ec1177d3ecc91306379eafe8f367683f7e97" />
+    <None Include=".git\objects\01\86e0ee356522c0020ba9e15ee1109af796f590" />
+    <None Include=".git\objects\03\3a965d8f05b020b5b8db3f9e10f0ad153a2399" />
+    <None Include=".git\objects\03\b789771e5a790c89ae7000aad4d66a8fd8afc7" />
+    <None Include=".git\objects\04\1ba2207109bf314bf19867be8ece6b0452af86" />
+    <None Include=".git\objects\04\860ef4afc8571f0ff05bebf5b708343f7401d4" />
+    <None Include=".git\objects\0e\0e67f712558b6e9e55b0a05b525a2bee2b536a" />
+    <None Include=".git\objects\11\168e914b1a8d12f030d1c5312964614488d09f" />
+    <None Include=".git\objects\15\23eb78add78e689fa776062a9de897c08d53b5" />
+    <None Include=".git\objects\19\d4c5948944e850f475c33c5e9d67a1ec64080e" />
+    <None Include=".git\objects\1f\d259726477ad32bf30ce5f718ea7df4c9c3245" />
+    <None Include=".git\objects\1f\dbf257a8613dcc930f618c68538d123170bfe6" />
+    <None Include=".git\objects\21\58eb4819bf82b652ab47ce6f25b576de3c57a3" />
+    <None Include=".git\objects\23\b956f084e0d262700cb25b7437c8a988d3bc05" />
+    <None Include=".git\objects\23\df6047ff5e482da1391785f81094f964004842" />
+    <None Include=".git\objects\28\70b72661bd7b87ed23f2806273ad72b861be3b" />
+    <None Include=".git\objects\2a\e9f0c6a91522f71883ec42ac325c2ba34d3db5" />
+    <None Include=".git\objects\2b\be703df5d3a39d970e5b6daf4d6f0af8ba9ea0" />
+    <None Include=".git\objects\2d\7cf03eacb6848c5d50f3b56f33f47996ad2335" />
+    <None Include=".git\objects\33\36da027a7c5d1afc309fe2c07dabbd09acd74b" />
+    <None Include=".git\objects\33\4385d094e852f798eb2d876dc3ed1886a785f8" />
+    <None Include=".git\objects\34\16ab774010b8e13fe21167074d06bcb55dcd58" />
+    <None Include=".git\objects\34\f37a18dcdc2f2b80c93fe4d2d59124fee4bc75" />
+    <None Include=".git\objects\3e\f1d916fe8959ebe56cb9f0966c46b28047311f" />
+    <None Include=".git\objects\3f\a19c60c62a4adcd1f0b7f49d2f802b4c713308" />
+    <None Include=".git\objects\40\d7777b6e8d9e39e5111f829d6bc675701fa306" />
+    <None Include=".git\objects\43\7607169c6a36e0461e7c46f3a4d703888701d3" />
+    <None Include=".git\objects\47\410fdc30c92b3d054536469be1e46661b247ba" />
+    <None Include=".git\objects\49\9e25bd3e40e10bb27fbafe9ac7e151ffd324a0" />
+    <None Include=".git\objects\4a\af1f359571dd31317f596e2943cab1564dae0f" />
+    <None Include=".git\objects\4d\fffd762f89eea501f7793833bd12bca9897ecf" />
+    <None Include=".git\objects\4e\4cfebfedb6da97fbb24a273472d09407bae0e5" />
+    <None Include=".git\objects\4e\8b5892039607e1f99f11603a37641497198d64" />
+    <None Include=".git\objects\4e\b88c7b5ed592094819773b707e959b43ea24a0" />
+    <None Include=".git\objects\50\f3e27b695a18f3f18eaef1dc6731ec06d603e3" />
+    <None Include=".git\objects\51\9fc81ba527a18ca7ea206d7c95f5d5323b1be5" />
+    <None Include=".git\objects\51\c15f85ec1384e1df0f8b0a6cb1ba1f534100ec" />
+    <None Include=".git\objects\57\29603a6b79a5ec97155bbce3c3567cc6d9f434" />
+    <None Include=".git\objects\59\389a0a98c688f179fdcb645d2777277d812716" />
+    <None Include=".git\objects\5d\c8b2f54a52ff668bfcc74982b5aa3ad79cc69a" />
+    <None Include=".git\objects\5e\71e7b687626522c45eece15ff9a4fbfb80da35" />
+    <None Include=".git\objects\63\eb04e7fd1f99c2be3e61cbe3e93d37e0e3128d" />
+    <None Include=".git\objects\64\f37edd01cfc8e7ef1fd658c011a357974a19b1" />
+    <None Include=".git\objects\6b\0530b9b5c6d05e2f42f03dd93e88b12340e6ad" />
+    <None Include=".git\objects\6c\c4097782c2fd6c9c2a1ee1ed4c768c54723c22" />
+    <None Include=".git\objects\70\f33533c1cb2d7f11de9eb5398c87663dad4bcc" />
+    <None Include=".git\objects\72\6c0dff5f0a64e6ead5ba4fc9506ce3f7739538" />
+    <None Include=".git\objects\73\740d3067254d35179469a27e9ad3d0697b55a1" />
+    <None Include=".git\objects\74\51e0fb0030c71a3e5903003818b723a8edbb5c" />
+    <None Include=".git\objects\75\976cbbee76d3907c06f454c7f0fbfe5a66a47b" />
+    <None Include=".git\objects\76\47cfc0041009fcd31c03e976b831739d84f741" />
+    <None Include=".git\objects\76\e36ae1623724395f1ce47be66a5cbaad1d421b" />
+    <None Include=".git\objects\79\949366e798fb23a1349ac8cd3263620be89f8d" />
+    <None Include=".git\objects\7a\2ea97f17f11cbe12cde70bdf1e955c22531797" />
+    <None Include=".git\objects\8c\574914b70e49d0ce2709cf355e4370ece7aa16" />
+    <None Include=".git\objects\8d\d16579362e910c016b357e6471c7dd57d0494d" />
+    <None Include=".git\objects\90\c642d8fea6e52fd165366e84cc4c48be2133c0" />
+    <None Include=".git\objects\91\9746d96b41b55a69473dab17b9007a745dab77" />
+    <None Include=".git\objects\93\5fd0a89f78ba71168e6eea63455454bd5d34e4" />
+    <None Include=".git\objects\9c\571b1d03dc109d4280ab50e2238084816c3077" />
+    <None Include=".git\objects\9f\6888a9358aaf68578cf3153b0ae21e12765c77" />
+    <None Include=".git\objects\9f\9f2ea1966fbcb6f9bf4911fbb3659fc0f9dcf7" />
+    <None Include=".git\objects\a9\919986e88636a691beedee2e18179772b9a14d" />
+    <None Include=".git\objects\aa\45ade6b7f9eb628021d1d336518d6373e17f6f" />
+    <None Include=".git\objects\b7\d871243234466e6895887fdab1a1040f0d8d01" />
+    <None Include=".git\objects\b8\25a348c1b28fed536c5098983b7eb5be0e885d" />
+    <None Include=".git\objects\bc\a74f652b0b0280167e5427b06a95444a56cfb2" />
+    <None Include=".git\objects\bd\598e0a4041d5b21569c46dfbe7f666d748cf4d" />
+    <None Include=".git\objects\c2\26edcc947cf0a0521f15104919cce0c682ba6d" />
+    <None Include=".git\objects\c4\38479a7fcc71211591c976ccd9b1c60e9a7762" />
+    <None Include=".git\objects\c7\fe4d2c869895bca08e05d31321c9c8d6982b4b" />
+    <None Include=".git\objects\c8\b75ec953b2e22679a2327a3000872e107a8c25" />
+    <None Include=".git\objects\cb\f9cd2eaebe6fc07702c7c10d39f67ab0c4a7c2" />
+    <None Include=".git\objects\cc\876f73f97b89651ae04ab8d696cafeb1682e4e" />
+    <None Include=".git\objects\cd\d9bfdd79e582cb41ac469c7ac0387e4d189a25" />
+    <None Include=".git\objects\d2\76e594207ee4c3b2d828f8e073539851d2cdad" />
+    <None Include=".git\objects\d2\f84e2cbf7447ba078e266e325ca950d201f918" />
+    <None Include=".git\objects\d4\989f99bde9cad7f5b1358b8bae0e0fdf84b2fa" />
+    <None Include=".git\objects\d5\5d73a5627423542d37cca757e6898c5afeac25" />
+    <None Include=".git\objects\d6\da141209a6b2a0bf0445b66592847256b57164" />
+    <None Include=".git\objects\dd\8b4da98196a6a06f81b444d22fcc0ad2b951cd" />
+    <None Include=".git\objects\dd\b6addff73dadd43dbad8a863d3fc006ff026b0" />
+    <None Include=".git\objects\df\3d3a4e6fe9ce49446e86f45b3e2ece001d6da0" />
+    <None Include=".git\objects\e6\2513d344baca37ae6284156769e67d0edda169" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\e8\dc1d2b94a67d9589b4bd174496fbbe1be2e835" />
+    <None Include=".git\objects\e9\1723d41f97d5f7cc4557185dab61d898741b81" />
+    <None Include=".git\objects\e9\b0c231765ff89fb90f887e9738176ccfecb41b" />
+    <None Include=".git\objects\ec\4223bbdeb656a646c3c75d0dd4111ae2fbd91e" />
+    <None Include=".git\objects\ec\a5beeb6851e50774f83c87bc08282c49430d85" />
+    <None Include=".git\objects\ed\9a37fad8024e925784bd4874d8e2e1988a9b58" />
+    <None Include=".git\objects\ef\902d90b36c93d4911634453cf91dfd9c0fcbfa" />
+    <None Include=".git\objects\f0\90a9bdebf430da4ad92b37b1538b0b9d115369" />
+    <None Include=".git\objects\f4\34276e4131e9d3375599436db911a5dc50c751" />
+    <None Include=".git\objects\f9\2538a2ed28e510ed846a628d19150eca2172d8" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include="Calculator\bin\Debug\netcoreapp2.1\Calculator.deps.json" />
+    <None Include="Calculator\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.dev.json" />
+    <None Include="Calculator\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.json" />
+    <None Include="Calculator\obj\Calculator.csproj.nuget.cache" />
+    <None Include="Calculator\obj\Calculator.csproj.nuget.dgspec.json" />
+    <None Include="Calculator\obj\Calculator.csproj.nuget.g.props" />
+    <None Include="Calculator\obj\Calculator.csproj.nuget.g.targets" />
+    <None Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfoInputs.cache" />
+    <None Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.assets.cache" />
+    <None Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.csproj.CoreCompileInputs.cache" />
+    <None Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.csprojAssemblyReference.cache" />
+    <None Include="Calculator\obj\project.assets.json" />
+    <None Include="Classes\bin\Debug\netcoreapp2.1\Classes.deps.json" />
+    <None Include="Classes\bin\Debug\netcoreapp2.1\Classes.runtimeconfig.dev.json" />
+    <None Include="Classes\bin\Debug\netcoreapp2.1\Classes.runtimeconfig.json" />
+    <None Include="Classes\obj\Classes.csproj.nuget.cache" />
+    <None Include="Classes\obj\Classes.csproj.nuget.dgspec.json" />
+    <None Include="Classes\obj\Classes.csproj.nuget.g.props" />
+    <None Include="Classes\obj\Classes.csproj.nuget.g.targets" />
+    <None Include="Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfoInputs.cache" />
+    <None Include="Classes\obj\Debug\netcoreapp2.1\Classes.assets.cache" />
+    <None Include="Classes\obj\Debug\netcoreapp2.1\Classes.csproj.CoreCompileInputs.cache" />
+    <None Include="Classes\obj\Debug\netcoreapp2.1\Classes.csprojAssemblyReference.cache" />
+    <None Include="Classes\obj\project.assets.json" />
+    <None Include="Exercises\obj\Debug\netcoreapp2.1\Exercises.AssemblyInfoInputs.cache" />
+    <None Include="Exercises\obj\Debug\netcoreapp2.1\Exercises.assets.cache" />
+    <None Include="Exercises\obj\Debug\netcoreapp2.1\Exercises.csproj.CoreCompileInputs.cache" />
+    <None Include="Exercises\obj\Debug\netcoreapp2.1\Exercises.csprojAssemblyReference.cache" />
+    <None Include="Exercises\obj\Exercises.csproj.nuget.cache" />
+    <None Include="Exercises\obj\Exercises.csproj.nuget.dgspec.json" />
+    <None Include="Exercises\obj\Exercises.csproj.nuget.g.props" />
+    <None Include="Exercises\obj\Exercises.csproj.nuget.g.targets" />
+    <None Include="Exercises\obj\project.assets.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Calculator\bin\Debug\netcoreapp2.1\Calculator.dll" />
+    <Content Include="Calculator\bin\Debug\netcoreapp2.1\Calculator.pdb" />
+    <Content Include="Calculator\Calculator.csproj" />
+    <Content Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.csproj.FileListAbsolute.txt" />
+    <Content Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.dll" />
+    <Content Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.pdb" />
+    <Content Include="Classes\bin\Debug\netcoreapp2.1\Classes.dll" />
+    <Content Include="Classes\bin\Debug\netcoreapp2.1\Classes.pdb" />
+    <Content Include="Classes\Classes.csproj" />
+    <Content Include="Classes\obj\Debug\netcoreapp2.1\Classes.csproj.FileListAbsolute.txt" />
+    <Content Include="Classes\obj\Debug\netcoreapp2.1\Classes.dll" />
+    <Content Include="Classes\obj\Debug\netcoreapp2.1\Classes.pdb" />
+    <Content Include="Exercises\Exercises.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculator\CurrentOperation.cs" />
+    <Compile Include="Calculator\History.cs" />
+    <Compile Include="Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfo.cs" />
+    <Compile Include="Calculator\Program.cs" />
+    <Compile Include="Calculator\Session.cs" />
+    <Compile Include="Classes\Car.cs" />
+    <Compile Include="Classes\City.cs" />
+    <Compile Include="Classes\Door.cs" />
+    <Compile Include="Classes\Home.cs" />
+    <Compile Include="Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfo.cs" />
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Classes\Student.cs" />
+    <Compile Include="Exercises\Exercises.cs" />
+    <Compile Include="Exercises\obj\Debug\netcoreapp2.1\Exercises.AssemblyInfo.cs" />
+    <Compile Include="Exercises\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\qa-lab-project-v2\v16\" />
+    <Folder Include="Exercises\bin\Debug\netcoreapp2.1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
   <ProjectExtensions>
