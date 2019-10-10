@@ -1,0 +1,11 @@
+C:\Evelina\QA Lab\Classes\bin\Debug\netcoreapp2.1\Classes.deps.json
+C:\Evelina\QA Lab\Classes\bin\Debug\netcoreapp2.1\Classes.runtimeconfig.json
+C:\Evelina\QA Lab\Classes\bin\Debug\netcoreapp2.1\Classes.runtimeconfig.dev.json
+C:\Evelina\QA Lab\Classes\bin\Debug\netcoreapp2.1\Classes.dll
+C:\Evelina\QA Lab\Classes\bin\Debug\netcoreapp2.1\Classes.pdb
+C:\Evelina\QA Lab\Classes\obj\Debug\netcoreapp2.1\Classes.csproj.CoreCompileInputs.cache
+C:\Evelina\QA Lab\Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfoInputs.cache
+C:\Evelina\QA Lab\Classes\obj\Debug\netcoreapp2.1\Classes.AssemblyInfo.cs
+C:\Evelina\QA Lab\Classes\obj\Debug\netcoreapp2.1\Classes.dll
+C:\Evelina\QA Lab\Classes\obj\Debug\netcoreapp2.1\Classes.pdb
+C:\Evelina\QA Lab\Classes\obj\Debug\netcoreapp2.1\Classes.csprojAssemblyReference.cache
