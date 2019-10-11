@@ -13,7 +13,6 @@ namespace Calculator
         {
             PrintDefault();
         }
-
         public void ReadExpression()
         {
             double fNumber = 0, sNumber = 0;
@@ -28,7 +27,7 @@ namespace Calculator
             items = line.Split(' ');
             try
             {
-                if(items.Length != 3)
+                if (items.Length != 3)
                     throw new System.FormatException();
                 fNumber = Convert.ToDouble(items[0]);
                 sNumber = Convert.ToDouble(items[2]);
@@ -63,7 +62,7 @@ namespace Calculator
             currentHistory.AddHistory(operation);
             Console.Clear();
             PrintDefault();
-            currentHistory.PrintHistory();            
+            currentHistory.PrintHistory();
         }
     }
 }

@@ -21,7 +21,7 @@ namespace Calculator
 
         public void AddHistory(CurrentOperation item)
         {
-            string historyItem = (item.fNumber + " " + item.operation + " " + item.sNumber + " = " + item.result);
+            string historyItem = item.fNumber + " " + item.operation + " " + item.sNumber + " = " + item.result;
             sessionHistory.Add(historyItem);
         }
     }

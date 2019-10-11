@@ -9,7 +9,7 @@ namespace Classes
     {
         public string name;
         public double height, width, depth, floorCount;
-        public ArrayList doors = new ArrayList();
+        public List<Door> doors = new List<Door>();
 
         public Home() { }
 
@@ -22,7 +22,7 @@ namespace Classes
             this.floorCount = floorCount;
         }
 
-        public Home(string name, double height, double width, double depth, double floorCount, ArrayList doors)
+        public Home(string name, double height, double width, double depth, double floorCount, List<Door> doors)
         {
             this.name = name;
             this.height = height;

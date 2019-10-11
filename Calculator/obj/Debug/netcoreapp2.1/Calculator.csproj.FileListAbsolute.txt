@@ -9,3 +9,14 @@ C:\Evelina\QA Lab\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfoInpu
 C:\Evelina\QA Lab\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfo.cs
 C:\Evelina\QA Lab\Calculator\obj\Debug\netcoreapp2.1\Calculator.dll
 C:\Evelina\QA Lab\Calculator\obj\Debug\netcoreapp2.1\Calculator.pdb
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\bin\Debug\netcoreapp2.1\Calculator.deps.json
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.json
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\bin\Debug\netcoreapp2.1\Calculator.runtimeconfig.dev.json
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\bin\Debug\netcoreapp2.1\Calculator.dll
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\bin\Debug\netcoreapp2.1\Calculator.pdb
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\obj\Debug\netcoreapp2.1\Calculator.csprojAssemblyReference.cache
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\obj\Debug\netcoreapp2.1\Calculator.csproj.CoreCompileInputs.cache
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfoInputs.cache
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\obj\Debug\netcoreapp2.1\Calculator.AssemblyInfo.cs
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\obj\Debug\netcoreapp2.1\Calculator.dll
+C:\Evelina\QA Lab\qa-lab-project-v2\Calculator\obj\Debug\netcoreapp2.1\Calculator.pdb

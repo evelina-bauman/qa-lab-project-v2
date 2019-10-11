@@ -8,7 +8,7 @@ namespace Classes
     class City
     {
         public string name;
-        public ArrayList homes = new ArrayList();
+        public List<Home> homes = new List<Home>();
 
         public City (string name)
         {
