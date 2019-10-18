@@ -12,6 +12,7 @@ namespace Calculator
         public Session()
         {
             PrintDefault();
+            currentHistory.PrintHistory();
         }
         public void ReadExpression()
         {

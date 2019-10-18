@@ -22,7 +22,7 @@ namespace Shop
                     myShop.AddProduct();
                     break;
                 case ("2"):
-                    myShop.RemoveProduct();
+                    myShop.RemoveItem(myShop.products);
                     break;
                 case ("3"):
                     myShop.ListAllProducts();
@@ -31,7 +31,7 @@ namespace Shop
                     myShop.AddClient();
                     break;
                 case ("5"):
-                    myShop.RemoveClient();
+                    myShop.RemoveItem(myShop.clients);
                     break;
                 case ("6"):
                     myShop.ListAllClients();

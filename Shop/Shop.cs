@@ -58,7 +58,7 @@ namespace Shop
             productToAdd = new Product(name, price, amount, notes);
             foreach (Product item in products)
             {
-                if (item.name.Equals(productToAdd.name))
+                if (item.Name.Equals(productToAdd.Name))
                 {
                     Console.WriteLine("Product already exists.\b\n==================");
                     return;
@@ -66,34 +66,6 @@ namespace Shop
             }
             products.Add(productToAdd);
             Console.WriteLine($"Product {name} is successfully added\b\n==================");
-        }
-
-        public Product FindProduct(string name)
-        {
-            foreach (Product item in products)
-            {
-                if(item.name == name)
-                {
-                    return item;
-                }
-            }
-            Console.WriteLine("Product not found.\b\n==================");
-            return null;
-        }
-
-        public void RemoveProduct()
-        {
-            Console.WriteLine("Input the name of the product, which you would like to remove.");
-            Product productToRemove = FindProduct(Console.ReadLine().ToLower());
-            if (productToRemove != null)
-            {
-                products.Remove(productToRemove);
-                Console.WriteLine($"Product {productToRemove.name} is successfully removed.\b\n==================");
-            }
-            else
-            {
-                return;
-            }
         }
 
         public void ListAllProducts()
@@ -143,34 +115,6 @@ namespace Shop
             Console.WriteLine($"Client {name} is successfully added\b\n==================");
         }
 
-        public Client FindClient(string name)
-        {
-            foreach (Client item in clients)
-            {
-                if (item.name == name)
-                {
-                    return item;
-                }
-            }
-            Console.WriteLine("Client not found.\b\n==================");
-            return null;
-        }
-
-        public void RemoveClient()
-        {
-            Console.WriteLine("Input the name of the client, which you would like to remove.");
-            Client clientToRemove = FindClient(Console.ReadLine().ToLower());
-            if (clientToRemove != null)
-            {
-                clients.Remove(clientToRemove);
-                Console.WriteLine($"Client {clientToRemove.name} is successfully removed.\b\n==================");
-            }
-            else
-            {
-                return;
-            }
-        }
-
         public void ListAllClients()
         {
             Console.WriteLine("=========AVAILABLE CLIENTS=========");
@@ -188,8 +132,29 @@ namespace Shop
             }
         }
 
-        //not enought money
-        //0 amount of products
+        public T FindItem<T>(string name, List<T> listOfThings) where T : INamable
+        {
+            foreach (var item in listOfThings)
+            {
+                if (item.Name == name)
+                {
+                    return item;
+                }
+            }
+            Console.WriteLine("Item not found.\b\n==================");
+            return default(T);
+        }
+
+        public void RemoveItem<T>(List<T> listOfThings) where T : INamable
+        {
+            Console.WriteLine("Input the name of the client or product, which you would like to remove.");
+            T itemToRemove = FindItem(Console.ReadLine().ToLower(), listOfThings);
+            if (itemToRemove != default)
+            {
+                listOfThings.Remove(itemToRemove);
+                Console.WriteLine($"Item {itemToRemove.Name} is successfully removed.\b\n==================");
+            }
+         }
 
         public void SellAnItem ()
         {

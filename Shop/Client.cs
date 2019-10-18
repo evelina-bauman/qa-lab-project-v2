@@ -4,22 +4,23 @@ using System.Text;
 
 namespace Shop
 {
-    class Client
+    class Client : INamable
     {
-        public string name;
         double cashAmount;
         List<Product> boughtProducts;
 
+        public string Name { get; set; }
+
         public Client(string name, double cash)
         {
-            this.name = name;
+            this.Name = name;
             this.cashAmount = cash;
             boughtProducts = new List<Product>();
         }
 
         public void PrintClientInfo()
         {
-            Console.WriteLine($"Client {name} has {cashAmount}$.");
+            Console.WriteLine($"Client {Name} has {cashAmount}$.");
         }
     }
 }
